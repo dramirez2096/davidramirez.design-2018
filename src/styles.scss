@@ -1,5 +1,18 @@
 @import "variables";
 
+// global styles
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: var(--brand-blue);
+    color: var(--brand-white);
+}
+
+// global container styles
+.grid-container{
+    border: 1px dashed red;
+    width: 100%;
+    display: grid;
 }
